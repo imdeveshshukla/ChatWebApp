@@ -13,7 +13,7 @@ app.use(bp.json())
 app.use(express.static(path.join(__dirname, 'public')))
 
 
-const tempelatePath = path.join(__dirname, '../DevChat2/templates')
+const tempelatePath = path.join(__dirname, 'templates')
 app.set('view engine', 'hbs')
 app.set('views', tempelatePath)
 
